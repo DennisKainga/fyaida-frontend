@@ -24,7 +24,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <header className="bg-gray-100 p-6">
+        <h1 className="text-[#31223F] hover:text-[#BE591F] uppercase text-sm font-medium">home</h1>
+      </header>
+
       <body
+        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
